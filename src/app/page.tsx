@@ -14,9 +14,9 @@ import ContactForm from "./contact-form";
 export default function Portfolio() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
-      <Clients />
+      {/* <Clients /> */}
       <Skills />
       <Projects />
       <Resume />

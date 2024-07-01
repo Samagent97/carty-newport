@@ -6,8 +6,8 @@ import { Typography } from "@material-tailwind/react";
 const PROJECTS = [
   {
     img: "/image/blog-1.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
+    title: "Project Elenii",
+    desc: "Elenii is an SDG advocacy platform , designed for young people to collaborate and help solve local problems in relation to the United Nation's SDG goals .",
   },
   {
     img: "/image/blog2.svg",
@@ -21,8 +21,8 @@ const PROJECTS = [
   },
   {
     img: "/image/blog4.svg",
-    title: "E-commerce development",
-    desc: "Ecommerce website offering  access to the latest and greatest gadgets and accessories.",
+    title: "Packmyload",
+    desc: "Packmyload is the preferred and rated Nigeria's #1 packing and moving company in Lagos and Abuja. They offer international and interstate packing and moving....",
   },
   {
     img: "/image/blog-1.svg",

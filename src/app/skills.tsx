@@ -8,6 +8,8 @@ import {
   HashtagIcon,
   EyeIcon,
   DocumentTextIcon,
+  UserIcon,
+  UserGroupIcon
 } from "@heroicons/react/24/solid";
 import { SkillCard } from "@/components";
 
@@ -19,16 +21,16 @@ const SKILLS = [
       "Creating beautiful and functional web experiences is my forte. Using the latest technologies and best practices, I design and build websites that captivate and engage users.",
   },
   {
-    icon: FingerPrintIcon,
-    title: "Mobile App Development",
+    icon: UserIcon,
+    title: "Product Management",
     children:
-      " I specialize in creating responsive and intuitive mobile apps that work seamlessly across iOS & Android devices. From concept to deployment, I handle every stage of the development process.",
+      " I Focus on the product's overall scope and success from start to finish. Then use strategic thinking to define the product's vision and strategy, prioritize initiatives, and make decisions about what to build. And also research the market, understand customer needs, and perform competitor analysis.",
   },
   {
     icon: SwatchIcon,
     title: "Technology Stack",
     children:
-      "I'm well-versed in the industry's most popular frontend technologies, including HTML5, CSS3, JavaScript, and frameworks like React and React Native.",
+      "I'm well-versed in the industry's most popular frontend technologies, including HTML5, CSS3, JavaScript,Typescript  and frameworks like React and Nextjs.",
   },
   {
     icon: HashtagIcon,
@@ -43,10 +45,10 @@ const SKILLS = [
       "My development goes hand-in-hand with an eye for design. I create user interfaces that are not only functional but also aesthetically pleasing, providing a seamless and enjoyable user journey.",
   },
   {
-    icon: DocumentTextIcon,
-    title: "Testing and Quality Assurance",
+    icon: UserGroupIcon,
+    title: "SDG Champion ",
     children:
-      "I rigorously test and debug applications to guarantee a bug-free and secure environment for users. Your peace of mind is as important to me as the functionality of your project.",
+      "As an SDG Champion, I raise awareness and educate the public about the United Nations Sustainable Development Goals. I use my platforms, such as social media and public speaking, to spread the message and inspire others to take action.i also lead and implement projects that contribute directly to the SDG. I focus on practical solutions and measurable outcomes, driving specific initiatives that address SDG-related challenges.",
   },
 ];
 
