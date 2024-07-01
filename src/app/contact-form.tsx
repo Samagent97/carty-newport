@@ -18,6 +18,7 @@ export function ContactForm() {
       <div className="container mx-auto mb-20 text-center">
         <Typography variant="h1" color="blue-gray" className="mb-4">
           Contact Me
+          
         </Typography>
         <Typography
           variant="lead"
