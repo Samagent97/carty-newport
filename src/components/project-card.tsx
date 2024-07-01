@@ -11,9 +11,10 @@ interface ProjectCardProps {
   img: string;
   title: string;
   desc: string;
+  link:string;
 }
 
-export function ProjectCard({ img, title, desc }: ProjectCardProps) {
+export function ProjectCard({ img, title, desc,link }: ProjectCardProps) {
   return (
     <Card color="transparent" shadow={false}>
       <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-48">
@@ -37,9 +38,11 @@ export function ProjectCard({ img, title, desc }: ProjectCardProps) {
         <Typography className="mb-6 font-normal !text-gray-500">
           {desc}
         </Typography>
+        <a href={link} target="_blank" rel="noopener noreferrer">
         <Button color="gray" size="sm">
           see details
         </Button>
+        </a>
       </CardBody>
     </Card>
   );
