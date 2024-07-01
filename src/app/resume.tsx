@@ -12,11 +12,11 @@ import { ResumeItem } from "@/components";
 const RESUME_ITEMS = [
   {
     icon: ChartBarIcon,
-    children: "Bachelor of Science in Computer Science",
+    children: "Bachelor of Science in Statistics",
   },
   {
     icon: PuzzlePieceIcon,
-    children: "Certified Web Developer ",
+    children: " Web Developer ",
   },
   {
     icon: CursorArrowRaysIcon,
@@ -33,11 +33,11 @@ export function Resume() {
             My Resume
           </Typography>
           <Typography className="mb-4 mt-3 w-9/12 font-normal !text-gray-500">
-            Highly skilled and creative Web Developer with 5+ years of
+            Highly skilled and creative Web Developer with 4+ years of
             experience in crafting visually stunning and functionally robust
             websites and web applications.
           </Typography>
-          <Button
+          {/* <Button
             variant="text"
             color="gray"
             className="flex items-center gap-2"
@@ -47,7 +47,7 @@ export function Resume() {
               strokeWidth={3}
               className="h-3.5 w-3.5 text-gray-900"
             />
-          </Button>
+          </Button> */}
         </div>
         <div className="col-span-1 grid gap-y-6 lg:ml-auto pr-0 lg:pr-12 xl:pr-32">
           {RESUME_ITEMS.map((props, idx) => (
