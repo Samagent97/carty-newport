@@ -12,6 +12,7 @@ import {
   UserGroupIcon
 } from "@heroicons/react/24/solid";
 import { SkillCard } from "@/components";
+import CustomTypography from "@/components/CustomTypography";
 
 const SKILLS = [
   {
@@ -56,20 +57,20 @@ export function Skills() {
   return (
     <section className="px-8">
       <div className="container mx-auto mb-20 text-center">
-        <Typography color="blue-gray" className="mb-2 font-bold uppercase">
+        <CustomTypography color="blue-gray" className="mb-2 font-bold uppercase">
           my skills
-        </Typography>
-        <Typography variant="h1" color="blue-gray" className="mb-4">
+        </CustomTypography>
+        <CustomTypography variant="h1" color="blue-gray" className="mb-4">
           What I do
-        </Typography>
-        <Typography
+        </CustomTypography>
+        <CustomTypography
           variant="lead"
           className="mx-auto w-full !text-gray-500 lg:w-10/12"
         >
           I&apos;m not just a developer; I&apos;m a digital dreamweaver.
           Crafting immersive online experiences is not just a job but my
           calling. Discover below how I can help you.
-        </Typography>
+        </CustomTypography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
         {SKILLS.map((props, idx) => (

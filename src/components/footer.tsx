@@ -1,4 +1,5 @@
 import { Typography, Button } from "@material-tailwind/react";
+import CustomTypography from "./CustomTypography";
 
 const LINKS = ["Facebook", "X", "Linkedin", "Github"];
 const CURRENT_YEAR = new Date().getFullYear();
@@ -12,14 +13,14 @@ export function Footer() {
           <ul className="flex gap-8 items-center">
             {LINKS.map((link) => (
               <li key={link}>
-                <Typography
+                <CustomTypography
                   as="a"
                   href="#"
                   variant="small"
                   className="font-normal text-gray-700 hover:text-gray-900 transition-colors"
                 >
                   {link}
-                </Typography>
+                </CustomTypography>
               </li>
             ))}
            

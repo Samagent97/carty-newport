@@ -14,6 +14,8 @@ import {
   XMarkIcon,
   Bars3Icon,
 } from "@heroicons/react/24/solid";
+import CustomIconButton from "./CustomIconButton";
+import CustomButton from "./CustomButton";
 
 const NAV_MENU = [
   {
@@ -80,12 +82,12 @@ export function Navbar() {
           ))}
         </ul>
         <div className="hidden items-center gap-2 lg:flex">
-          <Button variant="text">Sign In</Button>
+          <CustomButton variant="text">Sign In</CustomButton>
           <a href="https://www.material-tailwind.com/blocks" target="_blank">
-            <Button color="gray">blocks</Button>
+            <CustomIconButton color="gray">blocks</CustomIconButton>
           </a>
         </div>
-        <IconButton
+        <CustomIconButton
           variant="text"
           color="gray"
           onClick={handleOpen}
@@ -96,7 +98,7 @@ export function Navbar() {
           ) : (
             <Bars3Icon strokeWidth={2} className="h-6 w-6" />
           )}
-        </IconButton>
+        </CustomIconButton>
       </div>
       <Collapse open={open}>
         <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
@@ -109,9 +111,9 @@ export function Navbar() {
             ))}
           </ul>
           <div className="mt-6 mb-4 flex items-center gap-2">
-            <Button variant="text">Sign In</Button>
+            <CustomButton variant="text">Sign In</CustomButton>
             <a href="https://www.material-tailwind.com/blocks" target="_blank">
-              <Button color="gray">blocks</Button>
+              <CustomButton color="gray">blocks</CustomButton>
             </a>
           </div>
         </div>

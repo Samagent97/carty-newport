@@ -6,6 +6,10 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
+import CustomCard from "./CustomCard";
+import CustomTypography from "./CustomTypography";
+import CustomCardBody from "./CustomCardBody";
+import CustomButton from "./CustomButton";
 
 interface ProjectCardProps {
   img: string;
@@ -16,7 +20,7 @@ interface ProjectCardProps {
 
 export function ProjectCard({ img, title, desc,link }: ProjectCardProps) {
   return (
-    <Card color="transparent" shadow={false}>
+    <CustomCard color="transparent" shadow={false}>
       <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-48">
         <Image
           src={img}
@@ -26,25 +30,25 @@ export function ProjectCard({ img, title, desc,link }: ProjectCardProps) {
           className="h-full w-full object-cover"
         />
       </CardHeader>
-      <CardBody className="p-0">
+      <CustomCardBody className="p-0">
         <a
           href="#"
           className="text-blue-gray-900 transition-colors hover:text-gray-800"
         >
-          <Typography variant="h5" className="mb-2">
+          <CustomTypography variant="h5" className="mb-2">
             {title}
-          </Typography>
+          </CustomTypography>
         </a>
-        <Typography className="mb-6 font-normal !text-gray-500">
+        <CustomTypography className="mb-6 font-normal !text-gray-500">
           {desc}
-        </Typography>
+        </CustomTypography>
         <a href={link} target="_blank" rel="noopener noreferrer">
-        <Button color="gray" size="sm">
+        <CustomButton color="gray" size="sm">
           see details
-        </Button>
+        </CustomButton>
         </a>
-      </CardBody>
-    </Card>
+      </CustomCardBody>
+    </CustomCard>
   );
 }
 
