@@ -148,7 +148,7 @@ export function ContactForm() {
                     className: "!min-w-full mb-8",
                   }}
                 />
-                <div className="w-full flex justify-end">
+                <div  className="w-full flex justify-end">
                   <CustomButton className="w-full md:w-fit" color="gray" size="md">
                     Send message
                   </CustomButton>
