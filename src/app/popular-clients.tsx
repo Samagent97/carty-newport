@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { Typography } from "@material-tailwind/react";
-import CustomTypography from "@/components/CustomTypography";
+
+import CustomTypography from "../components/CustomTypography";
 
 const CLIENTS = [
   "coinbase",

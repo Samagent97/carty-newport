@@ -1,18 +1,18 @@
 "use client";
 
-import { Typography } from "@material-tailwind/react";
+
 import {
   RectangleGroupIcon,
-  FingerPrintIcon,
+  
   SwatchIcon,
   HashtagIcon,
   EyeIcon,
-  DocumentTextIcon,
+  
   UserIcon,
   UserGroupIcon
 } from "@heroicons/react/24/solid";
-import { SkillCard } from "@/components";
-import CustomTypography from "@/components/CustomTypography";
+import { SkillCard } from "../components";
+import CustomTypography from "../components/CustomTypography";
 
 const SKILLS = [
   {

@@ -1,14 +1,14 @@
 "use client";
-import CustomTypography from "@/components/CustomTypography";
+import CustomTypography from "../components/CustomTypography";
 
-import { Typography, Button } from "@material-tailwind/react";
+import { } from "@material-tailwind/react";
 import {
   ChartBarIcon,
   PuzzlePieceIcon,
   CursorArrowRaysIcon,
-  ArrowRightIcon,
+  
 } from "@heroicons/react/24/solid";
-import { ResumeItem } from "@/components";
+import { ResumeItem } from "../components";
 
 const RESUME_ITEMS = [
   {

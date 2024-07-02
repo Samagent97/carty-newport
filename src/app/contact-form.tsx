@@ -1,20 +1,20 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 "use client";
-import CustomTypography from "@/components/CustomTypography";
+import CustomTypography from "../components/CustomTypography";
 import {
-  Typography,
-  Card,
-  CardBody,
+  
+  
   Radio,
   Input,
   Textarea,
-  Button,
-  IconButton,
+  
+  
 } from "@material-tailwind/react";
 import { EnvelopeIcon, PhoneIcon, TicketIcon } from "@heroicons/react/24/solid";
-import CustomCard from "@/components/CustomCard";
-import CustomCardBody from "@/components/CustomCardBody";
-import CustomIconButton from "@/components/CustomIconButton";
-import CustomButton from "@/components/CustomButton";
+import CustomCard from "../components/CustomCard";
+import CustomCardBody from "../components/CustomCardBody";
+import CustomIconButton from "../components/CustomIconButton";
+import CustomButton from "../components/CustomButton";
 
 export function ContactForm() {
   return (
@@ -91,7 +91,7 @@ export function ContactForm() {
                       className: "!min-w-full mb-3 md:mb-0",
                     }}
                   />
-                  {/* @ts-ignore */}
+                  {/* @ts-expect-error */}
                   <Input
                     color="gray"
                     size="lg"

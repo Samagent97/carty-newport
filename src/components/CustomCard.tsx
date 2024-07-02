@@ -1,5 +1,5 @@
 import React from "react";
-import { Card,CardBody,CardProps as MTWCardProps } from "@material-tailwind/react";
+import { Card,CardProps as MTWCardProps } from "@material-tailwind/react";
 
 type CardProps = Omit<MTWCardProps, 'placeholder' | 'onPointerEnterCapture' | 'onPointerLeaveCapture'> & {
     placeholder?: string;

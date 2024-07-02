@@ -1,9 +1,8 @@
 "use client";
 
-import { ProjectCard } from "@/components";
-import CustomTypography from "@/components/CustomTypography";
-import { Typography } from "@material-tailwind/react";
-import { link } from "fs";
+import { ProjectCard } from "../components";
+import CustomTypography from "../components/CustomTypography";
+
 
 const PROJECTS = [
   {
