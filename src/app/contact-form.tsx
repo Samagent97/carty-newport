@@ -14,6 +14,7 @@ import { EnvelopeIcon, PhoneIcon, TicketIcon } from "@heroicons/react/24/solid";
 import CustomCard from "@/components/CustomCard";
 import CustomCardBody from "@/components/CustomCardBody";
 import CustomIconButton from "@/components/CustomIconButton";
+import CustomButton from "@/components/CustomButton";
 
 export function ContactForm() {
   return (
@@ -148,9 +149,9 @@ export function ContactForm() {
                   }}
                 />
                 <div className="w-full flex justify-end">
-                  <Button className="w-full md:w-fit" color="gray" size="md">
+                  <CustomButton className="w-full md:w-fit" color="gray" size="md">
                     Send message
-                  </Button>
+                  </CustomButton>
                 </div>
               </form>
             </div>
