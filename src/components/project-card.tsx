@@ -1,15 +1,10 @@
 import Image from "next/image";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Typography,
-  Button,
-} from "@material-tailwind/react";
+
 import CustomCard from "./CustomCard";
 import CustomTypography from "./CustomTypography";
 import CustomCardBody from "./CustomCardBody";
 import CustomButton from "./CustomButton";
+import CustomCardHeader from "./CustomCardHeader";
 
 interface ProjectCardProps {
   img: string;
@@ -21,15 +16,16 @@ interface ProjectCardProps {
 export function ProjectCard({ img, title, desc,link }: ProjectCardProps) {
   return (
     <CustomCard color="transparent" shadow={false}>
-      <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-48">
+      <CustomCardHeader floated={false} className="mx-0 mt-0 mb-6 h-48">
         <Image
           src={img}
           alt={title}
           width={768}
           height={768}
           className="h-full w-full object-cover"
+          
         />
-      </CardHeader>
+      </CustomCardHeader>
       <CustomCardBody className="p-0">
         <a
           href="#"

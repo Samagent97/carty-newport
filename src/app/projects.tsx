@@ -27,6 +27,7 @@ const PROJECTS = [
     img: "/image/iconpackmyload.webp",
     title: "Packmyload",
     desc: "Packmyload is the preferred and rated Nigeria's #1 packing and moving company in Lagos and Abuja. They offer international and interstate packing and moving....",
+    link: "https://www.packmyload.com/"
   },
   // {
   //   img: "/image/blog-1.svg",
