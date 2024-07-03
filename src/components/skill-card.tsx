@@ -1,4 +1,4 @@
-import { Card, CardBody, Typography } from "@material-tailwind/react";
+
 import CustomCard from "./CustomCard";
 import CustomTypography from "./CustomTypography";
 import CustomCardBody from "./CustomCardBody";

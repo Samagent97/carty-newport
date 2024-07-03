@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Button, ButtonProps as MTWButtonProps } from '@material-tailwind/react';
 
-// Extend the original ButtonProps to make specific props optional
 type ButtonProps = Omit<MTWButtonProps, 'placeholder' | 'onPointerEnterCapture' | 'onPointerLeaveCapture'> & {
   placeholder?: string;
   onPointerEnterCapture?: React.PointerEventHandler;
