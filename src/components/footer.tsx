@@ -1,4 +1,4 @@
-import { Typography, Button } from "@material-tailwind/react";
+
 import CustomTypography from "./CustomTypography";
 
 const LINKS = ["Facebook", "X", "Linkedin", "Github"];
