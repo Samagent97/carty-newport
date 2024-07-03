@@ -6,6 +6,7 @@ import { Typography, Card, CardBody, Avatar } from "@material-tailwind/react";
 import CustomTypography from "../components/CustomTypography";
 import CustomCard from "../components/CustomCard";
 import CustomCardBody from "../components/CustomCardBody";
+import CustomAvatar from "../components/CustomAvatar";
 
 export function Testimonial() {
   const [active, setActive] = React.useState(3);
@@ -50,7 +51,7 @@ export function Testimonial() {
                 Marketing @ APPLE INC.
               </CustomTypography>
               <div className="flex items-center gap-4">
-                <Avatar
+                <CustomAvatar
                   variant="rounded"
                   src="/image/avatar1.jpg"
                   alt="spotify"
@@ -61,7 +62,7 @@ export function Testimonial() {
                   onClick={() => setActive(1)}
                 />
                 <div className="w-[1px] h-[36px] bg-blue-gray-100 "></div>
-                <Avatar
+                <CustomAvatar
                   variant="rounded"
                   src="/image/avatar2.jpg"
                   alt="spotify"
@@ -72,7 +73,7 @@ export function Testimonial() {
                   onClick={() => setActive(2)}
                 />
                 <div className="w-[1px] h-[36px] bg-blue-gray-100" />
-                <Avatar
+                <CustomAvatar
                   variant="rounded"
                   src="/image/avatar3.jpg"
                   alt="spotify"

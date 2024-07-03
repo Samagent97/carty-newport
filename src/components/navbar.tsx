@@ -17,6 +17,7 @@ import {
 import CustomIconButton from "./CustomIconButton";
 import CustomButton from "./CustomButton";
 import CustomTypography from "./CustomTypography";
+import CustomNavbar from "./CustomNavbar";
 
 const NAV_MENU = [
   {
@@ -69,7 +70,7 @@ export function Navbar() {
   }, []);
 
   return (
-    <MTNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50">
+    <CustomNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between">
         <CustomTypography color="blue-gray" className="text-lg font-bold">
           Material Tailwind
@@ -119,7 +120,7 @@ export function Navbar() {
           </div>
         </div>
       </Collapse>
-    </MTNavbar>
+    </CustomNavbar>
   );
 }
 
