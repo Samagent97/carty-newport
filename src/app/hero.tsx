@@ -41,12 +41,7 @@ function Hero() {
               </CustomButton>
             </div>
           </div>
-          <CustomTypography variant="small" className="font-normal !text-gray-500">
-            Read my{" "}
-            <a href="#" className="font-medium underline transition-colors">
-              T and C
-            </a>
-          </CustomTypography>
+         
         </div>
         <Image
           width={1024}
