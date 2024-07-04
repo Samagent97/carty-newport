@@ -1,6 +1,6 @@
 "use client";
 
-import React, { ReactNode, ReactElement } from "react";
+import React, {  ReactElement } from "react";
 import { ThemeProvider } from "@material-tailwind/react";
 
 interface LayoutProps {

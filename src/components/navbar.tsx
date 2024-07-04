@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Navbar as MTNavbar,
+  
   Collapse,
   
 } from "@material-tailwind/react";
@@ -8,7 +8,7 @@ import {
   RectangleStackIcon,
   UserCircleIcon,
   CommandLineIcon,
-  Squares2X2Icon,
+  
   XMarkIcon,
   Bars3Icon,
 } from "@heroicons/react/24/solid";
