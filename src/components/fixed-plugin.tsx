@@ -5,7 +5,7 @@ import CustomButton from "./CustomButton";
 
 export function FixedPlugin() {
   return (
-    <a href="https://www.material-tailwind.com" target="_blank">
+    <a href="https://www.elenii.xyz/about-us" target="_blank">
       <CustomButton
         color="white"
         size="sm"
@@ -16,9 +16,9 @@ export function FixedPlugin() {
           height={128}
           className="w-5 h-5"
           alt="Material Tailwind"
-          src="https://www.material-tailwind.com/favicon.png"
+          src="https://www.elenii.xyz/about-us"
         />{" "}
-        Made With Material Tailwind
+        Made by dmakers of elenii 
       </CustomButton>
     </a>
   );
