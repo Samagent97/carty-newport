@@ -5,8 +5,6 @@ import {
   RectangleGroupIcon,
   
   SwatchIcon,
-  HashtagIcon,
-  EyeIcon,
   
   UserIcon,
   UserGroupIcon
