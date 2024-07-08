@@ -58,12 +58,12 @@ export function ContactForm() {
                   sammccarthy090@gmail.com
                 </CustomTypography>
               </div>
-              <div className="flex mb-10 gap-5">
+              {/* <div className="flex mb-10 gap-5">
                 <TicketIcon className="h-6 w-6 text-white" />
                 <CustomTypography variant="h6" color="white" className="mb-2">
                   Open Support Ticket
                 </CustomTypography>
-              </div>
+              </div> */}
               <div className="flex items-center gap-5">
                 <CustomIconButton variant="text" color="white">
                   <i className="fa-brands fa-facebook text-lg" />
@@ -86,7 +86,7 @@ export function ContactForm() {
                     variant="static"
                     label="First Name"
                     name="first-name"
-                    placeholder="eg. Lucas"
+                    placeholder="eg. Sam"
                     containerProps={{
                       className: "!min-w-full mb-3 md:mb-0",
                     }}
@@ -98,7 +98,7 @@ export function ContactForm() {
                     variant="static"
                     label="Last Name"
                     name="last-name"
-                    placeholder="eg. Jones"
+                    placeholder="eg. carty"
                     containerProps={{
                       className: "!min-w-full",
                     }}
@@ -111,32 +111,18 @@ export function ContactForm() {
                   variant="static"
                   label="Email"
                   name="first-name"
-                  placeholder="eg. lucas@mail.com"
+                  placeholder="eg. sammy@mail.com"
                   containerProps={{
                     className: "!min-w-full mb-8",
                   }}
                 />
-                <CustomTypography
+                {/* <CustomTypography
                   variant="lead"
                   className="!text-blue-gray-500 text-sm mb-2"
                 >
                   What are you interested on?
-                </CustomTypography>
-                <div className="-ml-3 mb-14 ">
-                  {/* @ts-ignore */}
-                  <Radio
-                    color="gray"
-                    name="type"
-                    label="Design"
-                    defaultChecked
-                  />
-                  {/* @ts-ignore */}
-                  <Radio color="gray" name="type" label="Development" />
-                  {/* @ts-ignore */}
-                  <Radio color="gray" name="type" label="Support" />
-                  {/* @ts-ignore */}
-                  <Radio color="gray" name="type" label="Other" />
-                </div>
+                </CustomTypography> */}
+               
                 {/* @ts-ignore */}
                 <Textarea
                   color="gray"

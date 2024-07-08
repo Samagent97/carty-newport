@@ -3,8 +3,8 @@
 import CustomTypography from "../components/CustomTypography";
 
 import Image from "next/image";
-import { Input } from "@material-tailwind/react";
-import CustomButton from "../components/CustomButton";
+// import { Input } from "@material-tailwind/react";
+// import CustomButton from "../components/CustomButton";
 
 function Hero() {
   return (
@@ -22,23 +22,23 @@ function Hero() {
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            I&apos;m Samson Nuhu Mccarthy, an Innovator web developer and SDG Advocate based in Nigeria. Here,
+            I&apos;m Samson Nuhu Mccarthy, an Innovator ,web developer ,Trainer and Instructor  based in Nigeria. I love using tech to impact. Here,
             you&apos;ll get a glimpse of my journey in the world of web
             development,     creativity meets functionality.
           </CustomTypography>
           <div className="grid">
-            <CustomTypography
+            {/* <CustomTypography
               variant="small"
               className="mb-2 text-gray-900 font-medium"
             >
               Your email
-            </CustomTypography>
+            </CustomTypography> */}
             <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
               {/* @ts-ignore */}
-              <Input color="gray" label="Enter your email" size="lg" />
+              {/* <Input color="gray" label="Enter your email" size="lg" />
               <CustomButton color="gray" className="w-full px-4 md:w-[12rem]">
                 require offer
-              </CustomButton>
+              </CustomButton> */}
             </div>
           </div>
          

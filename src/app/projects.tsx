@@ -6,27 +6,27 @@ import CustomTypography from "../components/CustomTypography";
 
 const PROJECTS = [
   {
-    img: "/image/elenii.webp",
+    img: "/image/Eleniisc.webp",
     title: "Project Elenii",
     desc: "Elenii is an SDG advocacy platform , designed for young people to collaborate and help solve local problems in relation to the United Nation's SDG goals .",
     link: "https://www.elenii.xyz/"
   },
   {
-    img: "/image/igblh.webp",
+    img: "/image/infinitygemsc.webp",
     title: "Infinity Gem",
-    desc: "Infinity gem is an online Learning Platform. Made for Individuals who are trying to navigate their way into tech and also professionals who keep learning everyday . it is owned by Bluehouse Technologies ",
+    desc: "Infinity gem is an online Learning Platform. Made for Individuals who are trying to navigate their way into tech . it is owned by Bluehouse Technologies ",
     link:"https://ig.bluehouseng.com/"
   },
   {
-    img: "/image/bluehouse.webp",
+    img: "/image/bluehsc.webp",
     title: "Bluehouse Technologies ",
-    desc: "Bluehouse Technologies bridges the gap between the pace of technological innovations and adoption",
+    desc: "Bluehouse Technologies bridges the gap between the pace of technological innovations and adoption. Want to hire a team? NB:'I am part of Bluehouse' ",
     link: "https://www.bluehouseng.com/"
   },
   {
-    img: "/image/iconpackmyload.webp",
+    img: "/image/pmlsc.webp",
     title: "Packmyload",
-    desc: "Packmyload is the preferred and rated Nigeria's #1 packing and moving company in Lagos and Abuja. They offer international and interstate packing and moving....",
+    desc: "Packmyload is the preferred and rated Nigeria's #1 packing and moving company in Lagos and Abuja. They offer international and interstate packing .",
     link: "https://www.packmyload.com/"
   },
   // {
