@@ -17,15 +17,15 @@ import CustomTypography from "../components/CustomTypography";
 const SKILLS = [
   {
     icon: RectangleGroupIcon,
-    title: "Frontend Web Development:",
+    title: " Web Development:",
     children:
       "Creating beautiful and functional web experiences is my forte. Using the latest technologies and best practices, I design and build websites that captivate and engage users.",
   },
   {
     icon: UserIcon,
-    title: "Product Management",
+    title: "Linux Administrator ",
     children:
-      " I Focus on the product's overall scope and success from start to finish. Then use strategic thinking to define the product's vision and strategy, prioritize initiatives, and make decisions about what to build. And also research the market, understand customer needs, and perform competitor analysis.",
+    "Seasoned Linux administrator with hands-on experience across 5+ distributions. Adept at navigating various system configurations and troubleshooting challenges.",
   },
   {
     icon: SwatchIcon,
@@ -33,23 +33,13 @@ const SKILLS = [
     children:
       "I'm well-versed in the industry's most popular frontend technologies, including HTML5, CSS3, JavaScript,Typescript  and frameworks like React and Nextjs.",
   },
-  {
-    icon: HashtagIcon,
-    title: " Web Optimization",
-    children:
-      "Performance matters. I optimize websites and apps for speed, ensuring your users enjoy a fast and responsive experience, which in turn boosts user satisfaction and SEO rankings.",
-  },
-  {
-    icon: EyeIcon,
-    title: "User-Centric Design",
-    children:
-      "My development goes hand-in-hand with an eye for design. I create user interfaces that are not only functional but also aesthetically pleasing, providing a seamless and enjoyable user journey.",
-  },
+  
+  
   {
     icon: UserGroupIcon,
-    title: "SDG Champion ",
+    title: "Trainer  ",
     children:
-      "As an SDG Champion, I raise awareness and educate the public about the United Nations Sustainable Development Goals. I use my platforms, such as social media and public speaking, to spread the message and inspire others to take action.i also lead and implement projects that contribute directly to the SDG. I focus on practical solutions and measurable outcomes, driving specific initiatives that address SDG-related challenges.",
+      "With over 20 students successfully trained and mentored, I'm a seasoned trainer who equips tech beginners with the skills they need to thrive. I use a blend of live classes, physical mentorship, and dedicated support to ensure their growth.",
   },
 ];
 
