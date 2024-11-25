@@ -22,7 +22,7 @@ function Hero() {
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            I&apos;m Samson Nuhu Mccarthy, an Innovator ,web developer ,Trainer and Instructor  based in Nigeria. I love using tech to impact. Here,
+            I&apos;m Samson Nuhu Mccarthy, an Innovator , developer ,Trainer and Instructor  based in Nigeria. I love using tech to impact. Here,
             you&apos;ll get a glimpse of my journey in the world of web
             development,     creativity meets functionality.
           </CustomTypography>

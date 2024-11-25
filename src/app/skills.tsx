@@ -29,7 +29,7 @@ const SKILLS = [
     icon: SwatchIcon,
     title: "Technology Stack",
     children:
-      "I'm well-versed in the industry's most popular frontend technologies, including HTML5, CSS3, JavaScript,Typescript  and frameworks like React and Nextjs.",
+      "I'm well-versed in the industry's most popular frontend technologies, including HTML5, CSS3, JavaScript,Typescript,Python  and frameworks like React,Expo and Nextjs.",
   },
   
   
